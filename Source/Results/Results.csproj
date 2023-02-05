@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <!-- Project -->
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>MistyDotDev.Results</RootNamespace>
+
+        <!-- Build -->
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+        <!-- NuGet -->
+        <PackageId>MistyDotDev.Results</PackageId>
+        <Title>MistyDotDev.Results</Title>
+        <Authors>MistyDotDev</Authors>
+        <Description>Simple result types for C#</Description>
+        <PackageProjectUrl>https://github.com/MistyDotDev/results</PackageProjectUrl>
+        <License>https://github.com/MistyDotDev/results/blob/main/LICENSE</License>
+        <RepositoryUrl>https://github.com/MistyDotDev/results</RepositoryUrl>
+    </PropertyGroup>
+
+</Project>
